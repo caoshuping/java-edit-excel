@@ -35,7 +35,7 @@ public class InfoProcess {
 					processedInfo.add("20:00");
 				
 				tempString = info.get(i+2);
-				//System.out.println(i);
+				System.out.println(tempString);
 				processedInfo.add("D"+tempString.substring(0, tempString.indexOf("ги")));
 				//i = i + 2;
 			}
